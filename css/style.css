@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.3em;
+    color: #828282;
+    background-color: #fff;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.section{
+    background: url(../img/gaz-fabric.jpg)no-repeat;
+    background-size: cover;
+}
+.section::before{
+    content: '';
+    width: 602px;
+    height: 629px;
+    position: absolute;
+    background: url(../img/uzor.png) 0 no-repeat;
+    background-size: 100%;
+}
+.span{
+    font-size: 40px;
+}
+.rows{
+    box-sizing: border-box;
+}
+.card-3{
+    color: #fff;
+}
+.card-2{
+    align-items: flex-end;
+    margin: 30% 0 10% ;
+}
+.cards-inner{
+    width: 100%;
+}
+.three-cards{
+    position: relative;
+}
+.two-cards{
+    padding: 0;
+    margin-bottom: 2%;
+}
+.two-cards__card-2{
+    padding: 0;
+}
+.text{
+    padding: 10px 10px;
+    background-color: #000;
+    color: #fff;
+}
+.card{
+    border: none;
+}
+.card-title{
+    text-transform: uppercase;
+}
+.product{
+    flex-wrap: wrap;
+    font-size: 12px;
+    line-height: 12px;
+}
+.items{
+    margin-bottom: 100px;
+}
+.footer-inner{
+    line-height: 30px;
+    flex-wrap: wrap;
+}
